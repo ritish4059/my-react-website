@@ -1,0 +1,15 @@
+import React from 'react';
+import './ApplePage.css';  // Import CSS for styling
+
+const ApplePage = () => {
+  return (
+    <div className="apple-page">
+      <h1>Apple Inc.</h1>
+      <img src="/appleSuccess.png" alt="Apple Success" className="apple-image" />
+      <p>Apple Inc. stands as an influential American multinational technology company...</p>
+      {/* Add other content here */}
+    </div>
+  );
+};
+
+export default ApplePage;

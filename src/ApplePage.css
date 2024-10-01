@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Base font */
+}
+
+/* Page container */
+.apple-page {
+  padding: 40px; /* Increased padding */
+  text-align: left; /* Left align the text */
+  background: linear-gradient(135deg, #1a1a1a, #333); /* Gradient background */
+  color: #fff; /* White text color */
+}
+
+/* Image styling */
+.apple-image {
+  width: 100%; /* Responsive image */
+  max-width: 800px; /* Max width for a larger image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center the image with auto margins */
+  display: block; /* Make the image a block element */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2); /* Softer shadow */
+}
+
+/* Main heading styling */
+h1 {
+  color: #ffcc00; /* Golden color for main heading */
+  font-size: 3rem; /* Larger font size */
+  text-align: center; /* Center align the main heading */
+  margin-bottom: 20px; /* Space below the heading */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Subheading styling */
+h2 {
+  color: #ff9900; /* Orange color for subheadings */
+  font-size: 2rem; /* Subheading size */
+  margin-top: 30px; /* Space above subheading */
+  border-bottom: 2px solid #ffcc00; /* Underline effect */
+  padding-bottom: 5px; /* Space below the underline */
+}
+
+/* Paragraph styling */
+p {
+  line-height: 1.8; /* Improved line height for readability */
+  margin-bottom: 20px; /* Space below paragraphs */
+}
+
+/* List styling */
+ul {
+  list-style-type: disc; /* Bulleted list style */
+  margin-left: 20px; /* Space from the left */
+  color: #e0e0e0; /* Light gray color for list items */
+}
+
+/* Link styling */
+a {
+  color: #00ccff; /* Cyan color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ffcc00; /* Change color on hover */
+}
+
+/* Additional styling for block elements */
+section {
+  margin-bottom: 40px; /* Space below sections */
+  padding: 20px; /* Padding for sections */
+  background-color: rgba(255, 255, 255, 0.05); /* Light background for content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Button styling */
+.button {
+  display: inline-block; /* Inline block for button */
+  padding: 10px 20px; /* Padding for button */
+  background-color: #ff9900; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.button:hover {
+  background-color: #ffcc00; /* Lighter on hover */
+}

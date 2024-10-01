@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Base font for the entire page */
+}
+
+/* About page styling */
+.about-page {
+  padding: 40px; /* Increased padding for better spacing */
+  background-color: #121212; /* Dark background for a sleek look */
+  color: #ffffff; /* White text for contrast */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Main heading styling */
+.about-page h1 {
+  text-align: center;
+  font-size: 3rem; /* Increased font size */
+  margin-bottom: 30px; /* Space below the title */
+  color: #ffcc00; /* Gold color for the main title */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Strong shadow effect */
+}
+
+/* Subheading styling */
+.about-page h2 {
+  font-size: 2.5rem; /* Increased font size for subheadings */
+  margin-top: 20px; /* Space above subheading */
+  color: #4CAF50; /* Green color for subheadings */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Paragraph and list styling */
+.about-page p, .about-page ul {
+  font-size: 1.2rem; /* Medium font size for readability */
+  margin-bottom: 15px; /* Space below paragraphs and lists */
+  color: #e0e0e0; /* Light gray for improved contrast */
+}
+
+/* List styling */
+.about-page ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 40px; /* Indentation for list */
+}
+
+/* Section styling for different segments */
+.purpose, .features, .technologies, .future-plans {
+  margin-bottom: 30px; /* Space between sections */
+}
+
+/* Feature list item styling */
+.features li {
+  margin-bottom: 8px; /* Space between list items */
+}
+
+/* Individual section styling */
+.about-page section {
+  background: rgba(255, 255, 255, 0.1); /* Light translucent background for sections */
+  padding: 20px; /* Increased padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-page h1 {
+    font-size: 2.5rem; /* Smaller heading on mobile */
+  }
+  
+  .about-page h2 {
+    font-size: 2rem; /* Smaller subheading on mobile */
+  }
+  
+  .about-page p, .about-page ul {
+    font-size: 1rem; /* Smaller text on mobile */
+  }
+}

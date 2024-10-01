@@ -1,0 +1,65 @@
+/* Reset margins and paddings for body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu+button */
+  align-items: center; /* Vertically align items */
+  padding: 10px 50px; /* Add padding for spacing */
+  background-color: #fff; /* Optional: Add a background color */
+  position: fixed; /* Fix navigation at the top */
+  top: 0;
+  width: 100%; /* Make the nav stretch across the page */
+  z-index: 1000; /* Ensure the nav stays on top */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to the nav */
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically align the logo */
+}
+
+.logo {
+  width: 80px; /* Keep the logo smaller */
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex; /* Align list items horizontally */
+  margin: 0 auto; /* Center the menu items between logo and button */
+  padding: 0;
+  justify-content: center;
+  flex-grow: 1; /* Take up available space */
+}
+
+nav ul li {
+  margin: 0 20px; /* Space between menu items */
+  font-size: 18px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #0073e6; /* Optional: Change color on hover */
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #444; /* Optional: Change button color on hover */
+}
+
+body {
+  padding-top: 70px; /* Add padding to prevent content from hiding under the fixed nav */
+}

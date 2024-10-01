@@ -1,0 +1,53 @@
+/* Container for the entire TechBrandsPage */
+.tech-brands-page {
+    text-align: center;
+  }
+  
+  .brands-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Spacing between brand items */
+  }
+  
+  .brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-logo {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth scaling for logo */
+  }
+  
+  .animated-logo {
+    transition: transform 0.3s ease; /* Smooth scaling effect for logos */
+  }
+  
+  .animated-logo:hover {
+    transform: scale(1.2); /* Scale up the logo on hover */
+  }
+  
+  .animated-text {
+    margin-top: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Text transition */
+  }
+  
+  .animated-text:hover {
+    transform: translateY(-10px); /* Move the text up slightly on hover */
+    opacity: 0.8;
+  }
+  
+  /* Add a slight "bounce" effect on click */
+  .brand-item:active .animated-logo {
+    transform: scale(1.1) translateY(-5px); /* Pop up effect on click */
+  }
+  
+  .brand-item:active .animated-text {
+    transform: translateY(-12px); /* Text moves up a bit more on click */
+  }
+  

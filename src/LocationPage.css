@@ -1,0 +1,80 @@
+/* Location Page Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Base font for the entire page */
+}
+
+/* Main container for the location page */
+.location-page {
+  padding: 40px; /* Increased padding for better spacing */
+  background-color: #121212; /* Dark background for a modern look */
+  color: #ffffff; /* White text for contrast */
+  text-align: center; /* Center-align text */
+}
+
+/* Title styling */
+.location-page h1 {
+  font-size: 3rem; /* Large font size for the title */
+  margin-bottom: 30px; /* Space below the title */
+  color: #ffcc00; /* Gold color for the title */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Strong shadow effect */
+}
+
+/* Map container styling */
+.map-container {
+  margin-top: 20px; /* Space above the map */
+  width: 100%; /* Make the container full width */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center the map */
+  align-items: center; /* Center vertically */
+}
+
+/* Responsive iframe for the map */
+iframe {
+  max-width: 100%; /* Responsive iframe */
+  height: 450px; /* Set a fixed height */
+  border: 0; /* No border */
+  border-radius: 10px; /* Rounded corners for iframe */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect for depth */
+}
+
+/* Additional Information Section */
+.info-section {
+  margin-top: 40px; /* Space above the information section */
+  background: rgba(255, 255, 255, 0.1); /* Light translucent background */
+  padding: 20px; /* Padding around the section */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Subheading styling for additional information */
+.info-section h2 {
+  font-size: 2rem; /* Font size for subheading */
+  color: #4CAF50; /* Green color for subheadings */
+}
+
+/* Paragraph styling for additional information */
+.info-section p {
+  font-size: 1.2rem; /* Medium font size for text */
+  color: #e0e0e0; /* Light gray for improved contrast */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .location-page h1 {
+    font-size: 2.5rem; /* Smaller heading on mobile */
+  }
+
+  .info-section h2 {
+    font-size: 1.8rem; /* Smaller subheading on mobile */
+  }
+
+  .info-section p {
+    font-size: 1rem; /* Smaller text on mobile */
+  }
+
+  iframe {
+    height: 300px; /* Smaller iframe height on mobile */
+  }
+}
